@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Fixes space indented files by replacing the tabs with spaces.
-# Usage: ./fix_program.sh FileName [SpacesPerIndent]
+# Usage: ./DeSpacify.sh FileName [SpacesPerIndent]
 # If SpacesPerIndent is not given, default to 4.
 #
 if [ $# -eq 0 ] || [ $# -gt 2 ]; then
